@@ -3,6 +3,7 @@
 # time: 2018/2/22--18:39
 __author__ = 'Henry'
 
+
 '''
 酷狗音乐桌面版(引用爬虫:API_music_kugou.py)
 '''
@@ -10,7 +11,7 @@ __author__ = 'Henry'
 from tkinter import *
 import tkinter.messagebox
 import pygame  # 方法三:播放MP3/wav音频 (此方法好用!!!)
-import API_music_kugou
+from Spiders import API_music_kugou
 
 # 添加全局变量,用于翻页
 keyword = 0
@@ -34,7 +35,7 @@ def play(e):  # 注意:这里必须传递一个e参数,不然报错!!!
     # keyword = text_1.get()
     API_music_kugou.list_url(keyword, page, num)
     # 再开始播放:
-    file = 'E:\\Python_Project\\study_python\\kugou_music\\' + name + '.mp3'
+    file = 'kugou_music\\' + name + '.mp3'
     pygame.mixer.init()
     track = pygame.mixer.music.load(file)
     pygame.mixer.music.play()
