@@ -17,7 +17,7 @@
     - 爬虫文件: Spiders/API_music_kugou.py
     - Tkinter GUI文件: Spiders/GUI_music_kugou.py
     - exe运行程序: exe/GUI_music_kugou.exe (使用pyinstaller库将python文件打包成可执行的exe程序)
- - 以下是软件界面截图:
+ - 以下是软件运行截图:
 ![enter image description here](Pic/Image.png)
 ## :dolphin:运行环境
 Version: Python3
@@ -25,3 +25,6 @@ Version: Python3
 ```
 pip3 install -r requirements.txt
 ```
+## :dolphin:**总结**
+> **最后，如果你觉得这个项目不错或者对你有帮助，给个Star呗，也算是对我学习路上的一种鼓励！<br>
+ 哈哈哈，感谢大家！笔芯~**:cupid::cupid:
